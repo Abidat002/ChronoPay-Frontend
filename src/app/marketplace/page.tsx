@@ -21,28 +21,28 @@ const seedItems = [
     title: "1 Hour Technical Consultation",
     price: "50 XLM",
     image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=300&fit=crop",
-    href: "/marketplace/demo-1",
+    href: "/marketplace",
   },
   {
     id: "demo-2",
     title: "30 Minute Design Review",
     price: "25 XLM",
     image: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=400&h=300&fit=crop",
-    href: "/marketplace/demo-2",
+    href: "/marketplace",
   },
   {
     id: "demo-3",
     title: "2 Hour Strategy Session",
     price: "100 XLM",
     image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop",
-    href: "/marketplace/demo-3",
+    href: "/marketplace",
   },
   {
     id: "demo-4",
     title: "15 Minute Quick Call",
     price: "15 XLM",
     image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&h=300&fit=crop",
-    href: "/marketplace/demo-4",
+    href: "/marketplace",
   },
 ];
 
@@ -80,7 +80,7 @@ function buildCatalogue(): (typeof seedItems)[number][] {
       title: SERVICE_TITLES[i % SERVICE_TITLES.length],
       price: PRICE_BAND[i % PRICE_BAND.length],
       image: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=400&h=300&fit=crop",
-      href: `/marketplace/svc-${i + 1}`,
+      href: "/marketplace",
     });
   }
   return out;
