@@ -27,7 +27,6 @@
     "rrule": "^2.8.1"
   },
   "devDependencies": {
-    "@rolldown/binding-win32-x64-msvc": "^1.2.11",
     "@tailwindcss/postcss": "^4",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
@@ -41,6 +40,7 @@
     "@vitejs/plugin-react": "^6.0.3",
     "@vitest/coverage-v8": "^4.1.9",
     "axe-core": "^4.13.0",
+    "emoji-regex": "^11.0.0",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
     "happy-dom": "^20.14.5",

@@ -1,3 +1,4 @@
+"use client";
 /**
  * Internationalisation scaffolding for ChronoPay.
  *
